@@ -26,4 +26,5 @@ Issues
 
 ![image](https://github.com/mylesjav/Weather-Dashboard/assets/152746324/c8507ff7-d6be-4457-aca5-03e5ad065683)
 git@github.com:mylesjav/Weather-Dashboard.git
+
 https://github.com/mylesjav/Weather-Dashboard
