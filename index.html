@@ -4,33 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <h1> Weather Dashboard</h1>
-    <h3 class="p">
-    </h3>
-        <a class="a"></a>
-    <p></p>
-    <!-- <btn class="button" id="fetch-button"> -->
-        Search
-<input type="text" id="cityName" placeholder="Enter city name">
-<button id="search"> Search </btn>
-    <div id="data"></div>
-    
-    <li>City 1</li>
-    <li>City 2</li>
-    <li>City 3</li>
-    <li>City 4</li>
-    <li>City 5</li>
-    <li>City 6</li>
+    <div class="container">
+    <div class="weather-input">
+        <h3>Enter a city name</h3>
+        <input class="city-input" type="text" placeholder="Enter city name">
+        <button class="search-btn"> Search </button>
+        <li class="listItem"></li>
+        <div class="separator"></div>
+        <div class="weather-data">
+            <div class="current-weather">
+        <div class="details">
+            <h2>      </h2>
+            <h4>temp</h4>
+            <h4>wind</h4>
+            <h4>humidity</h4>
+        </div>
+        <div class="icon">
+        </div>
+        <div class="days-forecast">
+            <h2>5-Day Forecast</h2>
+            <ul class="weather-cards">
+                <li class="card">
+                    <h3>_______</h3>
+                    <h4>Temp</h4>
+                    <h4>Wind</h4>
+                    <h4>Humidity</h4>
 
-    <div>5 Day Report</div>
-    <di>Day 1</di>
-    <di>Day 2</di>
-    <di>Day 3</di> 
-    <di>Day 4</di>
-    <di>Day 5</di>
-   
-    <script src="./assets/script.js"></script>
+                </li>
+                <li class="card">
+                    <h3>_______</h3>
+                    <h4>Temp</h4>
+                    <h4>Wind</h4>
+                    <h4>Humidity</h4>
+
+                </li>  
+                <li class="card">
+                    <h3>_______</h3>
+                    <h4>Temp</h4>
+                    <h4>Wind</h4>
+                    <h4>Humidity</h4>
+
+                </li>  <li class="card">
+                    <h3>_______</h3>
+                    <h4>Temp</h4>
+                    <h4>Wind</h4>
+                    <h4>Humidity</h4>
+
+                </li>
+                <li class="card">
+                    <h3>_______</h3>
+                    <h4>Temp</h4>
+                    <h4>Wind</h4>
+                    <h4>Humidity</h4>
+
+                </li>
+            </ul>
+        </div>
+        </div>
+    <script src="assets/script.js"></script>
 </body>
 </html>
