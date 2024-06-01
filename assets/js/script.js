@@ -13,6 +13,8 @@ document.getElementById('savedCities').innerHTML+=
 `<li>${city}</li>`
 });
 
+
+//fetching weather details
 const getWeatherDetails = (cityName, latitude, longitude) => {
     const WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/forecast?${cityName}&lat=${latitude}&lon=${longitude}&appid=${API_KEY}`;
 
@@ -33,7 +35,7 @@ const getWeatherDetails = (cityName, latitude, longitude) => {
         <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="weather-icon">
         <h6>${weatherItem.weather[0].description}</h6>
     </div>`;
-
+//fetching weather forecast
 for ( let i = 7; i< data.list.length; i+=8){
 
     let weatherItem = data.list[i]
@@ -57,6 +59,7 @@ for ( let i = 7; i< data.list.length; i+=8){
 
 const getCityCoordinates = () => {
 
+    // Clear the current weather and forecast weather divs
 document.getElementById('current-weather').innerHTML=''
 document.getElementById('forecast-weather').innerHTML=''
 
