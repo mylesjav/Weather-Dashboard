@@ -11,57 +11,17 @@
     <div class="container">
     <div class="weather-input">
         <h3>Enter a city name</h3>
-        <input class="city-input" type="text" placeholder="Enter city name">
+        <input class="city-input" type="text" placeholder="Enter city name"/>
         <button class="search-btn"> Search </button>
-        <li class="listItem"></li>
+        <ul class="listItem" id="savedCities"></ul>
         <div class="separator"></div>
         <div class="weather-data">
-            <div class="current-weather">
-        <div class="details">
-            <h2>      </h2>
-            <h4>temp</h4>
-            <h4>wind</h4>
-            <h4>humidity</h4>
-        </div>
-        <div class="icon">
-        </div>
+            <h2>Current Weather</h2>
+            <div class="current-weather" id="current-weather"></div>
+        
         <div class="days-forecast">
             <h2>5-Day Forecast</h2>
-            <ul class="weather-cards">
-                <li class="card">
-                    <h3>_______</h3>
-                    <h4>Temp</h4>
-                    <h4>Wind</h4>
-                    <h4>Humidity</h4>
-
-                </li>
-                <li class="card">
-                    <h3>_______</h3>
-                    <h4>Temp</h4>
-                    <h4>Wind</h4>
-                    <h4>Humidity</h4>
-
-                </li>  
-                <li class="card">
-                    <h3>_______</h3>
-                    <h4>Temp</h4>
-                    <h4>Wind</h4>
-                    <h4>Humidity</h4>
-
-                </li>  <li class="card">
-                    <h3>_______</h3>
-                    <h4>Temp</h4>
-                    <h4>Wind</h4>
-                    <h4>Humidity</h4>
-
-                </li>
-                <li class="card">
-                    <h3>_______</h3>
-                    <h4>Temp</h4>
-                    <h4>Wind</h4>
-                    <h4>Humidity</h4>
-
-                </li>
+            <ul class="weather-cards" id="forecast-weather">
             </ul>
         </div>
         </div>
